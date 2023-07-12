@@ -1,0 +1,124 @@
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100bv;
+}
+
+#contactos {
+    width: 20vw;
+}
+
+#chat {
+    width: 80vw;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column; 
+    margin: 6px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    border: #bec1bb8f solid 0.5px;
+    padding: 8px;
+    padding-left: 25px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5em;
+    width: 100px;
+}
+
+.perfil i {
+    font-size: 18px;
+    color: #828485;
+}
+
+
+.status {
+    font-size: 11px;
+    padding: 5px 0px 0px 8px;
+    color: #828485;
+}
+
+.foto-perfil {
+    height: 38px;
+    border-radius: 50%;
+}
+
+.nombre, .puesto, .yo {
+    margin: 0px;
+    padding-left: 8px;
+}
+
+.nombre {
+    font-size: 14px;
+    color: #1d1d1d;
+}
+
+.puesto {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #828485;
+}
+
+.yo {
+    margin-top: 6px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    border: #bec1bb8f solid 0.5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: white;
+    background-color: #a491d2;
+    border-radius: 3%;
+    border-color: #a491d2;
+    padding: 12px 45px 12px 45px;
+    font-size: 14px;
+    border: #BEC1BB solid 1px;
+}
+
+.hand {
+    height: 220px;
+    width: 220px;
+    padding-bottom: 20px;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8EBE4;
+}
+
+.titulo-net {
+    font-size: 45px;
+    color: #1d1d1d;
+}
+
+.titulo-txt {
+    font-size: 16px;
+    text-align: center;
+    color: #414141;
+}
