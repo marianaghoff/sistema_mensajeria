@@ -98,6 +98,14 @@
     border: #BEC1BB solid 1px;
 }
 
+.btn:hover {
+    background-color: #ccbfeb;
+}
+
+.btn:focus {
+    background-color: #bec1bb;
+}
+
 .hand {
     height: 220px;
     width: 220px;
